@@ -2,7 +2,7 @@ package how.tdd.poker.patterns
 
 import how.tdd.poker.core.Card
 
-class OnePair {
+class NOfAKind {
     fun detect(cards: List<Card>): List<Card> {
         val result = mutableSetOf<Card>()
         cards.forEach { card ->
